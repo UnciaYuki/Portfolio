@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Silkscreen:wght@400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400;700&display=swap);
+
+/* Utilisé pour toute la page (quasiment) */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppons", sans-serif;
+}
+
+/* Général */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #D2E0FB
+}
+
+.bg
+{
+    background-color: #8EACCD;
+}
+li {
+    list-style: none;
+}
+
+
+.center {
+    justify-content: center;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+/* HEADER */
+header nav {
+    width: 40%;
+}
+
+/* HERO */
+
+.hero { 
+    height: 100vh;
+}
+
+.hero h1 {
+    font-family: "Silkscreen", cursive;
+    color: #D2E0FB;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.hero h2 {
+    font-family: "Silkscreen", cursive;
+    color: #D2E0FB;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.container  {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto; 
+}
+
+.btn {
+    border:2px solid #D2E0FB; 
+    border-radius:5px;
+    padding: 10px;
+    display: inline-block; 
+    margin-top: 15px;
+}
