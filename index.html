@@ -6,81 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+
+
 </head>
 
 <body>
     <!-- Header nav etc -->
-    <header class="flex spaceBetween alignCenter">
-        <img src="" alt="">
-        <nav class="flex spaceBetween">
-            <ul>
-                <li><a href="" title="Lien vers Accueil">Accueil</a></li>
-                <li><a href="" title="Lien vers à propos">À propos</a></li>
-                <li><a href="" title="Lien vers projet">Projet</a></li>
+    <header class="alignCenter center paddingHeader">
+        <nav>
+            <ul class="flex spaceBetween">
+                <li><a href="#Accueil" title="Lien vers Accueil">Accueil</a></li>
+                <li><a href="#Propos" title="Lien vers à propos">À propos</a></li>
+                <li><a href="#Projet" title="Lien vers projet">Projet</a></li>
             </ul>
         </nav>
     </header>
     <!-- Présentation (hero) -->
-    <section class="hero bg">
-        <div>
-            <img src="" alt="">
-            <div>
-                <h1>THOMAS-BRONDEAU Kim-Triny</h1>
-                <h2>Développeuse Web</h2>
-                <a href="" class="btn">Projet</a>
+    <section class="hero flex bg alignCenter paddingSection">
+        <div class="container">
+            <div class="container-animation flex spaceBetween alignCenter textCenter">
+                <h1 class="text1 ">THOMAS-BRONDEAU Kim-Triny</h1>
+                <div class="center w100">
+                    <h2 class="center">Développeuse Web</h2>
+                    <a href="#Projet" class="btn">Projet</a>
+                </div>
             </div>
         </div>
     </section>
     <!-- À propos de moi -->
-    <section>
-        <h3>À propos de moi</h3>
-        <div>
-            <div>
-                <p></p>
-            </div>
-            <div>
-                <h4></h4>
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+    <section id="Propos" class="paddingSection center">
+        <h2>À propos de moi</h3>
+            <div class="container flex spaceBetween">
+                <div class="w30">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi ullam deserunt commodi
+                        doloremque asperiores quia similique, quam accusamus repellat ratione perferendis facere,
+                        tenetur architecto voluptatum ab! Dolorum, nemo sint.</p>
+                </div>
+                <div class="w30">
+                    <h3>Mes compétences</h4>
+                        <div>
+                            <img src="" alt=""><i class="fa-brands fa-css3-alt fa-2xl" style="color: #74C0FC;"></i></i>
+                            <img src="" alt=""><i class="fa-brands fa-html5" style="color: #f79322;"></i></i>
+                            <img src="assets/obs.png" alt="">
+                            <img src="" alt="">
+                        </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- Projet -->
-    <section>
+    <section id="Projet" class="paddingSection center">
         <h3>Projet</h3>
-        <div>
-            <div>
-                <img src="" alt="">
+        <div class="container flex spaceEvenly">
+            <div class="card">
+                <img src="assets/FF.png" alt="" class="imgServ">
                 <div>
-                    <p></p>
-                    <p></p>
+                    <p>Fiche Artiste - Projet La Toile</p>
+                    <p>HTML</p>
                 </div>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="card">
+                <img src="assets/Laruche.png" alt="Laruche" class="imgServ">
                 <div>
-                    <p></p>
-                    <p></p>
+                    <p>La ruche - Projet La Toile</p>
+                    <p>HTML - CSS</p>
                 </div>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="card">
+                <img src="http://www.chateau-saint-victor.com/wp-content/uploads/2016/12/galerie-chateau-saint-victor-loire-saint-etienne-32.jpg"
+                    alt="Château saint Victor loire" class="imgServ">
                 <div>
-                    <p></p>
-                    <p></p>
+                    <p>Château Saint Victor Loire - Projet La Toile</p>
+                    <p>HTML - CSS</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Citation -->
-    <blockquote>
-        <p>Les folies sont les seules choses qu’on ne regrette jamais.</p>
-    </blockquote>
-    <p>- Oscar Wilde</p>
+    <div class="paddingSection">
+        <blockquote cite="http://evene.lefigaro.fr/citation/folies-seules-choses-regrette-jamais-795.php">
+          <p>Les folies sont les seules choses qu'on ne regrette jamais.</p>
+        </blockquote>
+        <p>- Oscar Wilde, <cite>Le Portrait de Dorian Gray</cite></p>
+      </div>
+      
     <!-- Footer -->
     <footer>
         <p>© 2024</p>

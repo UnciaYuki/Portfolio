@@ -10,6 +10,12 @@
 
 /* Général */
 
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -19,14 +25,29 @@
     justify-content: space-between;
 }
 
+.spaceEvenly {
+    justify-content: space-evenly;
+}
 a {
     text-decoration: none;
-    color: #D2E0FB
+    color: #00455c
 }
 
+p {
+    color: #00455c;
+}
+
+h2 {
+    color: #00455c;
+}
+
+h3 {
+    color: #00455c
+}
 .bg
 {
-    background-color: #8EACCD;
+    background: rgb(171,197,226);
+    background: linear-gradient(183deg, rgba(171,197,226,1) 0%, rgba(142,172,205,1) 35%, rgba(78,100,124,1) 100%);
 }
 li {
     list-style: none;
@@ -34,48 +55,121 @@ li {
 
 
 .center {
-    justify-content: center;
+    justify-items: center;
 }
 
 .alignCenter {
     align-items: center;
 }
 
-/* HEADER */
-header nav {
-    width: 40%;
+.textCenter {
+    text-align: center;
 }
 
+.w100 {
+    width: 100%;
+}
+
+.paddingSection {
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+
+.w30 {
+    width: 30%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.pinline {
+    width: 30;
+}
+
+/* HEADER */
+header nav {
+    width: 30%;
+}
+.paddingHeader {
+    padding: 20px
+}
 /* HERO */
 
 .hero { 
     height: 100vh;
 }
 
-.hero h1 {
-    font-family: "Silkscreen", cursive;
-    color: #D2E0FB;
-    font-size: 50px;
-    font-weight: 400;
+.container-animation  {
+ 
+    display: inline-block;
 }
 
-.hero h2 {
+
+.text1 {
+    overflow: hidden;
+    font-size: 3rem;
+    font-weight: 400;
+    border-right: 0.15em solid #D2E0FB;
+    white-space: nowrap;
+    animation: typing 5s steps(50, end) infinite;
     font-family: "Silkscreen", cursive;
     color: #D2E0FB;
-    font-size: 50px;
-    font-weight: 400;
 }
 
-.container  {
-    max-width: 1000px;
-    width: 100%;
-    margin: auto; 
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 .btn {
-    border:2px solid #D2E0FB; 
+    border:2px solid #00455c; 
     border-radius:5px;
     padding: 10px;
     display: inline-block; 
     margin-top: 15px;
 }
+
+/* Projet */
+
+.imgServ{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card{
+    border: 2px solid; color: #2634d5df;
+    width: 200px;
+    box-shadow: 4px 4px 15px #2634d55a; 
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+/* Citation */
+
+div:has(> blockquote) {
+    background-color: #ededed;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  blockquote p::before {
+    content: '\201C';
+  }
+  
+  blockquote p::after {
+    content: '\201D';
+  }
+  
+  blockquote + p {
+    text-align: right;
+  }
+  
