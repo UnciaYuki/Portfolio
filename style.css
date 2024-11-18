@@ -16,11 +16,15 @@
     margin: auto;
 }
 
+
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
 
+.flexEnd {
+    align-items: flex-end;
+}
 .spaceBetween {
     justify-content: space-between;
 }
@@ -33,21 +37,21 @@ a {
     color: #00455c
 }
 
-p {
-    color: #00455c;
+.blue1 {
+    color:#00455c
 }
 
-h2 {
-    color: #00455c;
-}
-
-h3 {
-    color: #00455c
+.blue2 {
+    color: #8eaccd;
 }
 .bg
 {
     background: rgb(171,197,226);
     background: linear-gradient(183deg, rgba(171,197,226,1) 0%, rgba(142,172,205,1) 35%, rgba(78,100,124,1) 100%);
+}
+
+.bgR {
+   background:#00455c;
 }
 li {
     list-style: none;
@@ -71,7 +75,7 @@ li {
 }
 
 .paddingSection {
-        padding-top: 50px;
+        padding-top: 20px;
         padding-bottom: 50px;
 }
 
@@ -84,8 +88,17 @@ li {
     width: 45%;
 }
 
-.pinline {
-    width: 30;
+section h3 {
+    margin-bottom: 10px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* HEADER */
@@ -135,6 +148,14 @@ header nav {
     margin-top: 15px;
 }
 
+/* A propos de moi */
+.competence i {
+    font-size: 100px;
+}
+
+.competence img {
+    width: 120px;
+}
 /* Projet */
 
 .imgServ{
@@ -172,4 +193,10 @@ div:has(> blockquote) {
   blockquote + p {
     text-align: right;
   }
+
   
+  /* Footer */
+
+  footer h3 {
+    margin-bottom: 20px;
+  }
