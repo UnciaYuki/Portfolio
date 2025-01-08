@@ -1,0 +1,49 @@
+{
+"projets": [
+    {
+      "nom": "La Ruche",
+      "description": "Un site web simple pour apprendre les flexboxs.",
+      "url":"html",
+      "tags":["HTML", "CSS"]
+    },
+
+    {
+      "nom": "Château de la Loire",
+      "description": "Le Château de la Loire est un site web pour tester les positionnement, on a ainsi pu mettre en pratique de l’HTML, CSS.",
+      "url":"html",
+      "tags":["HTML", "CSS"]
+    },
+
+    {
+      "nom": "Ti Chef",
+      "description": "Description à faire",
+      "url":"html",
+      "tags":["HTML", "CSS", "JS"]
+    },
+    {
+        "nom": "FakeShop API",
+        "description": "Description à faire",
+        "url":"html",
+        "tags":["API"]
+      },
+      {
+        "nom": "Projet TouBon",
+        "description": "Afin de réaliser ce site web, j’ai fais moi-même la conception de la maquette sur papier pour ensuite avoir ce rendu.",
+        "url":"html",
+        "tags":["HTML", "CSS", "JS"]
+      },
+      {
+        "nom": "Sport",
+        "description": "Pour ce projet on a eu plusieurs phases afin d’avoir un début de projet, il y a eu une phase d’empathie, de définition, de problématique, d’idéation, de prototypage ainsi qu’un test.",
+        "url":"html",
+        "tags":["UX/UI", "Designthinking"]
+      },
+      {
+        "nom": "Spline",
+        "description": "Description à faire",
+        "url":"html",
+        "tags":["3D Web", "Interactif"]
+      }
+
+]
+}
