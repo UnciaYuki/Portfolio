@@ -3,33 +3,33 @@
     {
       "nom": "La Ruche",
       "description": "Un site web simple pour apprendre les flexboxs.",
-      "url":"html",
+      "url":"https://unciayuki.github.io/LaRuche/",
       "tags":["HTML", "CSS"]
     },
 
     {
       "nom": "Château de la Loire",
       "description": "Le Château de la Loire est un site web pour tester les positionnement, on a ainsi pu mettre en pratique de l’HTML, CSS.",
-      "url":"html",
+      "url":"https://unciayuki.github.io/Chateau_Loire/",
       "tags":["HTML", "CSS"]
     },
 
     {
       "nom": "Ti Chef",
       "description": "Description à faire",
-      "url":"html",
+      "url":"https://unciayuki.github.io/TiChef/",
       "tags":["HTML", "CSS", "JS"]
     },
     {
         "nom": "FakeShop API",
         "description": "Description à faire",
-        "url":"html",
+        "url":"https://unciayuki.github.io/API/",
         "tags":["API"]
       },
       {
         "nom": "Projet TouBon",
         "description": "Afin de réaliser ce site web, j’ai fais moi-même la conception de la maquette sur papier pour ensuite avoir ce rendu.",
-        "url":"html",
+        "url":"https://unciayuki.github.io/TouBon/",
         "tags":["HTML", "CSS", "JS"]
       },
       {
