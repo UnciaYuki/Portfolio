@@ -23,7 +23,7 @@ fetch('data.json')
             afficheUnProjet(projets)
         })
     });
-
+//
     function afficheUnProjet(projets) {
         // Role: afficher un produit dans la div qui a l'id divProduit
         // parametre: un produit du jeu de donnée
@@ -53,3 +53,4 @@ fetch('data.json')
                     </div>
         `
     }
+    
